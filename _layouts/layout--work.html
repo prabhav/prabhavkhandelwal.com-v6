@@ -1,0 +1,73 @@
+---
+layout: default
+footer_text: Back to projects
+---
+
+<section class="section project">
+  <aside class=" project__aside">
+    <main>
+      <h3>
+        {{ page.intro }}
+      </h3>
+    
+      <div class="info">
+        {{ page.info | markdownify }}
+      </div>
+    </main>
+  
+    <footer>
+      {% comment %}
+      {% if page.domain %}
+      <p class="caption domain">
+        <a href="https://{{ page.domain }}">{{ page.domain }}</a>
+        <img class="outlink" src="{{ site.baseurl }}/assets/img/outlink.svg" alt="">
+      </p>
+      {% endif %}
+      {% endcomment %}
+
+      {% if page.link %}
+        {% for item in page.link %}
+        <p class="caption links">
+          <a target="_blank" href="{{ item.url }}">{{ item.copy }}</a>
+          <img class="outlink" src="{{ site.baseurl }}/assets/img/outlink.svg" alt="">
+        </p>
+        {% endfor %}
+      {% endif %}
+  
+      <dl>
+        <dt>Role</dt>
+        <dd>
+          {% for item in page.role %}
+          {{ item }}
+          {% if forloop.last %}{% else %}+{% endif %}
+          {% endfor %}
+        </dd>
+  
+        {% if page.team %}
+        <dt>Team</dt>
+        <dd>
+          {% if page.team_url %}
+            <a href="{{ page.team_url }}">{{ page.team }}</a>
+            <img class="outlink" src="{{ site.baseurl }}/assets/img/outlink.svg" alt="">
+            {% else %}
+            {{ page.team }}
+          {% endif %}
+          
+        </dd>
+        {% endif %}
+      </dl>
+    </footer>
+    
+  </aside>
+  
+  <article class="project__main">
+    {{ content }}
+  </article>
+  
+  
+  
+  
+  
+  
+</section>
+

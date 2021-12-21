@@ -1,0 +1,55 @@
+---
+title: Prabhav Khandelwal
+timezone: Asia/Kolkata
+collections:
+  news:
+    title: News
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: true
+  blog:
+    title: Blog
+    output: true
+defaults:
+- scope:
+    path: posts
+    type: posts
+  values:
+    layout: default
+    permalink: "/:title/"
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: layout--work
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+  values:
+    layout: default
+url: http://www.sampledomainpleasechange.com
+baseurl: 
+permalink: pretty
+exclude:
+- ".git"
+- ".gitignore"
+- ".DS_Store"
+- ".sass-cache"
+- package.json
+- Gruntfile.js
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- LICENSE

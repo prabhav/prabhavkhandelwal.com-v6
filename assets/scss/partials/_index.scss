@@ -1,0 +1,279 @@
+.case-studies {
+    @include medium {
+        margin-top: 2rem;
+    }
+}
+
+.case-study {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    // justify-content: flex-start;
+    align-content: flex-start;
+    margin-bottom: 4rem;
+
+    // background: white;
+    // color: black;
+
+    .project { width: 100%; }
+    aside { width: 100%; }
+
+    @include medium {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: flex-start;
+
+        .project {
+            width: 44.5%;
+        }
+
+        aside {
+            width: 46%;
+        }
+    }
+
+    @include medium {
+
+    }
+
+    @include large {
+
+    }
+
+
+    
+    > * {
+        margin-bottom: 1.5rem;
+    }
+
+    &:hover aside img:nth-child(1) {    
+        // top: 55px;
+        // left: 55px;
+    }
+
+    i {
+        // width: 1%;
+        position: relative;
+        top: 12px;
+        color: $yellow;
+        margin-right: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .project {
+        // width: 100%;
+        // letter-spacing: -4px;
+
+        font-family: $font--body;
+
+        > * {
+            margin-bottom: 1.5rem;
+        }
+
+        
+
+        .project__title {
+            // letter-spacing: -2.4px;
+            font: {
+                family: $font--heading;
+                weight: 700;
+                size: 2.85rem;
+            }
+            text-transform: none;
+            text-align: left;
+            color: white;
+            line-height: 1.25;
+            // color: $yellow;
+        }
+
+        .project__description {
+            font: {
+                size: 1rem;
+                weight: 400;
+            }
+            color: #f8f8f8;
+
+            @include medium {
+                font-size: 1.15rem;
+            }
+
+        }
+
+        .project__link {
+            display: block;
+            color: $yellow;
+            font: {
+                size: 1rem;
+            }
+
+            @include medium {
+                font-size: 1.25rem;
+            }
+
+            &::after {
+                content: '⇢';
+                // font-size: 120%;
+                margin-left: 1rem;
+            }
+        }
+
+        ul {
+            list-style-type: none;
+            // display: inline;
+            list-style-image: url(../img/round--white.svg);
+            list-style-image: none;
+        }
+
+        ul li {
+            // display: inline;
+            padding-right: 2.5rem;
+            font: {
+                size: 0.9275rem;
+            }
+            line-height: 1.6;
+
+            @include medium {
+                font-size: 1.125rem;
+            }
+
+            &::before {
+                content: '#';
+                font: {
+                    weight: 700;
+                }
+                color: $yellow;
+            }
+
+            span {
+                font: {
+                    weight: 700;
+                }
+                color: $yellow;
+            }
+        }
+    }
+
+    aside {
+        // position: relative;
+
+        // width: 52%;
+        // width: 46%;
+        // width: 100%;
+
+        // margin-right: 6.5%;
+
+        img {
+
+            &:nth-child(1) {
+                // position: absolute;
+                // top: 72.5px;
+                // left: 72.5px;
+            }
+
+            &:nth-child(2):hover {
+
+            }
+
+        }
+
+    }
+}
+
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2rem;
+
+    @include medium {
+        grid-gap: 4rem;
+    }
+
+    .project {
+        margin-bottom: 1rem;
+        grid-column: span 6;
+        // border: 1px dashed rgba($yellow, 0.2);
+
+        &:hover .project__image, &:focus .project__image {
+            box-shadow: 5px 5px 0 rgba($yellow, 0.4);
+        }
+
+        @include medium {
+            grid-column: span 2;
+
+            &--small {
+                grid-column: span 1;
+            }
+    
+            &--half {
+                grid-column: span 3;
+            }
+    
+            &--big {
+                grid-column: span 4;
+            }
+    
+            &--full {
+                grid-column: span 6;
+            }
+        }
+
+        .tags {
+            margin-bottom: 1rem;
+
+            li {
+                display: inline-block;
+                margin-right: 0.25rem;
+                margin-bottom: 0;
+
+                font: {
+                    size: .9725rem;
+                }
+
+                &::before {
+                    content: '#';
+                    color: $yellow;
+                    font-weight: 700;
+                    margin-right: 0.25rem;
+                }
+            }
+        }
+
+
+
+
+    }
+
+    .case-study {
+        // background: $yellow;
+        // color: black;
+        margin-bottom: 0;
+    }
+
+    .project__image {
+        margin-bottom: 1rem;
+        border-radius: 4.5px;
+        // filter: sepia(30) saturate(50%) hue-rotate(30deg);
+        padding: 0.5rem;
+        border: 1px solid rgba($yellow, 0.4);
+
+        @include medium {
+            padding: 1.25rem;
+        }
+    }
+
+    .project__description {
+        margin-bottom: 0;
+
+        font: {
+            size: 1rem;
+        }
+
+        @include large {
+            // font-size: 1.125rem;    
+        }
+
+        strong {
+            color: $yellow;
+        }
+    }
+}

@@ -1,0 +1,135 @@
+.about {
+    @include medium {
+        height: calc(100vh - 124px);
+    }
+
+    * {
+        @include medium {
+            grid-column: span 6;
+        }
+
+        @include large {
+            grid-column: span 4;
+        }
+    }
+
+    article {
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .links {
+            list-style: none;
+            @include text--caption;
+            margin-bottom: 1rem;
+
+            li {
+                margin-bottom: 0.2rem;
+                // display: inline;
+
+                &::after {
+                    // content: ',';
+                }
+
+                a {
+                    // text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    figure {
+        text-align: right;
+        img {
+            @include medium {
+                width: 50%;
+            }
+        }
+
+        figcaption {
+            text-align: right;
+        }
+    }
+}
+
+// .davatar {
+//     border-radius: 50%;
+//     width: 35%;
+//     margin: 0 auto;
+//     text-align: center;
+
+//     padding: 0.5rem;
+//     border: 2px dashed rgba($yellow, 0.4);
+
+//     opacity: 0.7;
+
+//     animation-name: spin;
+//     animation-duration: 30s;
+//     animation-iteration-count: infinite;
+
+//     @include large {
+//         width: 18vw;
+//     }
+// }
+// //exceptions for about page
+// .about {
+//     .page-header {
+//         margin-top: 0;
+//     }
+
+//     .work__highlight p, .work__highlight h3 {
+//         text-align: left;
+//     }
+// }
+
+// .about__intro {
+//     display: flex;
+//     flex-flow: column nowrap;
+//     justify-content: space-between;
+
+//     aside { width: 100%; }
+//     main  { width: 100%; }
+
+//     @include large {
+//         flex-flow: row wrap;
+
+//         aside { width: 25%; }
+//         main  { width: 65%; }
+//     }
+
+//     aside {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         margin-bottom: 4rem;
+        
+//         img {
+//             // width: 100%;
+//         }
+
+//     }
+
+//     main .work__meta {
+//         grid-template-columns: 1fr 1.8fr;
+//         width: 100%;
+
+//         @include medium {
+//             font-size: 1.125rem;
+//             grid-template-columns: 2fr 6fr;
+//         }
+
+//         i {
+//             font-size: 1.25rem;
+//         }
+
+//         dt::before {
+//             content: '↩︎';
+
+//         }
+        
+//         // a {
+//         //     color: $yellow;
+//         //     text-decoration: underline;
+//         // }
+//     }
+// }

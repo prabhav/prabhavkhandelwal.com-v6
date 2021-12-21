@@ -1,0 +1,136 @@
+#canvas {
+    /* make the canvas wrapper fits the document */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    }
+    .plane {
+    /* define the size of your plane */
+    width: 80%;
+    height: 80vh;
+    // margin: 10vh auto;
+
+    position: relative;
+    width: 17.5%;
+    height: 400px;
+
+    // transform: scale(0.4);
+    
+    }
+    .plane img {
+    /* hide the img element */
+    display: none;
+    }
+
+header[role="banner"] {
+
+    padding-bottom: 1.5rem;
+
+    @include medium {
+        padding-top: $padding--vertical + 2rem;
+    }
+
+    .intro {
+        // background: green;
+        // background: black;
+        // color: white;
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        // flex-flow: column nowrap;
+
+        @include small {
+            
+        }
+
+        
+    }
+
+    .doodle {
+        // transform: rotate(90deg);
+        width: 25.5%;
+        // width: 25vw;
+        // opacity: 0.5;
+        // position: absolute;
+        // left: -10%;
+        // top: 0;
+        display: none;
+        
+
+        @include small {
+            display: block;
+            // flex-basis: 20%;
+            // transform: scale(0.5);
+            width: 12.5%;
+
+            // align-self: flex-start;
+        }
+
+        @include medium {
+            width: 8%;
+        }
+
+        @include large {
+            width: 5.5%
+        }
+    }
+
+    .intro__module {
+        width: 45%;
+
+        margin-bottom: 2rem;
+
+        @include small {
+            width: 33.5%;
+            margin-bottom: 0;
+        }
+
+        @include medium {
+            // width: 25%;
+        }
+
+        @include large {
+            // width: 40%;
+        }
+
+        h4 {
+            font: {
+                family: $font--heading;
+                size: 2.25rem;  
+                // size: 2.125rem;  
+                // size: 3.125rem;  
+                weight: 700;
+                // weight: 400;
+            }
+            // color: #222;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font: {
+                // size: 1.5rem;
+                // family: $font--heading;
+                // weight: 300;
+                
+                family: $font--body;
+                // weight: 400;
+                size: 0.9725rem;
+                // size: 1.15rem;
+                // size: 1.325rem;
+                // size: 1.25rem;
+
+            }
+            line-height: 1.6;
+            margin-bottom: 0;
+
+            @include medium {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+    </head>
+    <body onload="init()" class="body--{{ page.title | slugify }}">
+
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
+
+    <!-- Scripts -->
+    
+    <script src="{{site.baseurl}}/assets/js/production.min.js"></script>
+    {% include analytics.html %}
+    <script src="//localhost:35729/livereload.js"></script>
+    
+    </body>
+</html>
