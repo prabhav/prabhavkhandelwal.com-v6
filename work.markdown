@@ -4,37 +4,6 @@ layout: default
 footer_text: THE WEB SURE IS FLUID & DYNAMIC, BUT THAT ALSO MAKES THE THINGS IT HOLDS EPHEMERAL.
 ---
 
-{% comment %}
-<section class="section work__grid" id="">
-    {% for post in site.work reversed %}
-        <div class="project" id="{{ post.slug }}">
-            <a href="{{ post.url }}" class="project__thumb">
-                <figure>
-                    <img 
-                        src="{{ site.baseurl }}/assets/img/work/{{ post.title | slugify }}.png" 
-                        alt="{{ post.title }} cover image">
-                    <div class="project__role">
-                        {% for item in post.role %}
-                            <mark class="">{{ item }}</mark>
-                        {% endfor %}
-                    </div>
-                </figure>
-            </a>
-            <div class="project__meta">
-                <a href="{{ post.url }}">
-                    <span class="project__meta__title">
-                        {{ post.title }}
-                    </span> &mdash;
-                    <span class="project__meta__intro">
-                        {{ post.intro }}
-                    </span>
-                </a>
-            </div>
-        </div>   
-    {% endfor %}
-</section> 
-{% endcomment %}
-
 <section class="projects">
     {% for post in site.work reversed %}
     {% unless post.archive %}

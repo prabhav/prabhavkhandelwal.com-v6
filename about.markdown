@@ -16,7 +16,7 @@ footer_text:
         <a target="_blank" href="https://www.boldvoice.com/">BoldVoice</a>, and
         <a target="_blank" href="https://mindsparklemag.com/"> Mindsparkle</a>.
 
-        Check out my <a href="#">resume</a> to learn more.
+        Check out my <a target="_blank" href="{{ site.baseurl }}/assets/img/Resume_Prabhav_Khandelwal.pdf">resume</a> to learn more.
       </p>
 
       <p>
@@ -51,13 +51,13 @@ footer_text:
     </ul> -->
   </article>
 
-  <!-- <figure>
+  <figure>
     <img src="{{ site.baseurl }}/assets/img/cartoon.png" alt="Sketchy sketch of me">
     <figcaption>
       <small>
         Portrait by <a href="https://a-savage.com/">A. Savage</a>.
       </small>
     </figcaption>
-  </figure> -->
+  </figure>
 
 </section>

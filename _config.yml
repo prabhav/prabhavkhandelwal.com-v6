@@ -38,7 +38,7 @@ defaults:
     path: ''
   values:
     layout: default
-url: http://www.sampledomainpleasechange.com
+url: http://prabhavkhandelwal.com
 baseurl: 
 permalink: pretty
 exclude:

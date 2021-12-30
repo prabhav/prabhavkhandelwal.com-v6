@@ -9,7 +9,7 @@
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
-        padding-right: 4rem;
+        padding-right: 1rem;
     }
 
     main {
@@ -45,21 +45,30 @@
 
         dl {
             @include text--caption;
+            display: flex;
+            justify-content: space-between;
 
             dd {
+                flex-shrink: 0;
                 a {
                     color: $black;
                     text-decoration: underline;
                 }
             }
 
+            .dots {
+                content: "........";
+                flex-grow: 1;
+                overflow: hidden;
+            }
+
             dt {
-                float: left;
+                // float: left;
                 text-align: right;
               }
-              dt::after {
-                content: "........";
-              }
+            //   dt::after {
+            //     content: "........";
+            //   }
         }
     }
 
