@@ -80,15 +80,15 @@ header[role="banner"] {
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
-
-			.hover-img {
-				display: none;
-			}
 		}
 
 		@include large {
 			// grid-column: span 4;
 			width: 32%;
+		}
+
+		.hover-img {
+			display: none;
 		}
 	}
 
