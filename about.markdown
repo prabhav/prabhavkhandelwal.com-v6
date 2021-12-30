@@ -6,7 +6,7 @@ footer_text:
 
 <section class="section about">
   <article>
-      <p>I&rsquo;m a designer and developer, currently based in Brooklyn, NY. I love making internet things and am obseesed with the web and its power for expression and community.</p>
+      <p>I&rsquo;m a designer and developer, born and bred in Delhi, India and currently based in Brooklyn, NY. I love making internet things and am obseesed with the web and its power for expression and community.</p>
 
       <p>In the past, I&rsquo;ve been fortunate enough to learn from and grow with the teams at 
         <a target="_blank" href="https://blog.prototypr.io/my-summer-as-a-ux-research-intern-for-accenture-at-google-1ac353119717">Google</a>,
@@ -26,11 +26,11 @@ footer_text:
       <p>Thanks for coming to my little corner on the web. Don't be shy, say hi &rarr;</p>
   
       <ul class="links">
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Spotify</a></li>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">Email</a></li>
+        <li><a href="https://twitter.com/helloprabhav">Twitter</a></li>
+        <li><a href="https://www.instagram.com/helloprabhav/">Instagram</a></li>
+        <li><a href="https://open.spotify.com/user/helloprabhav?si=ce6efdcf67504112">Spotify</a></li>
+        <li><a href="https://www.linkedin.com/in/prabhavkhandelwal/">LinkedIn</a></li>
+        <li><a href="mailto:me@prabhavkhandelwal.com">Email</a></li>
       </ul>
 
   </article>

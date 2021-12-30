@@ -26,6 +26,8 @@ var main = function() {
         var imageAddress = $(this).attr("id");
         var projectName = $(this).find(".label").text();
 
+        console.log("some hover point");
+
         $(".hover-img").attr({
             alt: projectName,
             title: projectName,

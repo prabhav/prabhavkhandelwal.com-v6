@@ -24,29 +24,29 @@ footer_text: say hi
             </div>
         </div>
         <div class="box box--work">
-            <a class="point" href="#" id="jeff">
+            <a class="point" href="/work/jeffstaple/" id="jeffstaple">
                 <img class="shape" src="{{ site.baseurl }}/assets/img/triangle--red.svg" alt="red square">
                 <span class="caption label">(work, jeffstaple)</span>
             </a>
-            <a class="point" href="#" id="labamba">
+            <a class="point" href="/work/boldvoice/" id="boldvoice">
                 <img class="shape" src="{{ site.baseurl }}/assets/img/circle--red.svg" alt="red square">
-                <span class="caption label">(work, la bamba)</span>
+                <span class="caption label">(work, boldvoice)</span>
             </a>
-            <a class="point" href="#" id="publicrecords">
+            <a class="point" href="/work/skilli/" id="skilli">
                 <img class="shape" src="{{ site.baseurl }}/assets/img/square--red.svg" alt="red square">
-                <span class="caption label">(work, public records)</span>
+                <span class="caption label">(work, skilli)</span>
             </a>
         </div>
         <div class="box box--mood">
-            <a class="point" id="qawwali" href="#">
+            <a target="_blank" class="point" id="qawwali" href="https://open.spotify.com/playlist/4BgCPoQYpNDBFPeYAn2puJ?si=4ded1e6945c24465">
                 <img class="shape" src="{{ site.baseurl }}/assets/img/square--yellow.svg" alt="red square">
                 <span class="caption label">(listening, qawwali)</span>
             </a>
-            <a class="point" id="wanda" href="#">
+            <a target="_blank" class="point" id="beatles" href="https://www.imdb.com/title/tt9735318/">
                 <img class="shape" src="{{ site.baseurl }}/assets/img/triangle--yellow.svg" alt="red square">
-                <span class="caption label">(watching, wandavision)</span>
+                <span class="caption label">(watching, get back)</span>
             </a>
-            <a class="point" id="house" href="#">
+            <a target="_blank" class="point" id="house" href="https://open.spotify.com/playlist/56VUADHOYrHtnUEjBXomOP?si=8c058a708a7b43be">
                 <img class="shape" src="{{ site.baseurl }}/assets/img/circle--yellow.svg" alt="red square">
                 <span class="caption label">(listening, deep house)</span>
             </a>
