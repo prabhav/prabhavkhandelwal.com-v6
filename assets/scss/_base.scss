@@ -77,7 +77,8 @@ header[role="banner"] {
 
 	@include large {
 		flex-flow: row;
-		height: calc(100vh - 124px);
+		// height: calc(100vh - 124px);
+		height: calc(100vh - 62px);
 	}
 
 	article {
@@ -133,7 +134,7 @@ header[role="banner"] {
 		@include large {
 			background-image: url('../img/grid-bg.svg');
 			width: 680px;
-			min-height: 81.55555556vh;
+			// min-height: 81.55555556vh;
 		}
 		
 		@include large {
@@ -326,6 +327,34 @@ header[role="banner"] {
 		@include small {
 			width: 100%;
 		}
+	}
+
+	.cursor {
+		animation: blink 2s infinite;
+	}
+}
+
+@keyframes blink {
+	// 0% {
+	// 	color: transparent;
+	// }
+
+	// 50% {
+	// 	color: $black;
+	// }
+
+	// 75% {
+	// 	color: $black;
+	// }
+	// 100% {
+	// 	color: transparent;
+	// }
+	25% {
+		opacity: 0;
+	}
+
+	75% {
+		opacity: 1
 	}
 }
 

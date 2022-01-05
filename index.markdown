@@ -55,7 +55,7 @@ footer_text: say hi
             <canvas id="sketchpad" height="400" width="400%">
             </canvas>
             <p class="caption" contenteditable="true">
-                Can I have your autograph?
+                Can I have your autograph?<span class="cursor">|</span>
             </p>
         </div>
     </div>

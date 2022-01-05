@@ -7,7 +7,9 @@
 
     {% include header.html %}
     {{ content }}
-    {% include footer.html %}
+    {% unless page.title == "Home" %}
+        {% include footer.html %}
+    {% endunless %}
 
     <!-- Scripts -->
     

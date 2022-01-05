@@ -5,6 +5,11 @@ layout: layout--index
 
 <section class="section blog-grid">
   {% for post in site.blog reversed %}
+    {% if post.outlink %}
+      <a target="_blank" href="{{ post.outlink }}">
+    {% else %}
+      <a href="{{ post.url }}">
+    {% endif %}
     <article>
       <main>
         <h3 class="caption">{{ post.title }}</h3>
@@ -17,12 +22,13 @@ layout: layout--index
       
       <footer>
         {% if post.outlink %}
-          <a href="{{ post.outlink }}" target="_blank" class="caption">↳ Read More</a>
+          <span class="caption">Read on Mindsparkle <img class="outlink" src="{{ site.baseurl }}/assets/img/outlink.svg" alt=""></span>
         {% else %}
-          <a href="{{ post.url }}">Read More</a>
+          <span class="caption">Read More</span>
         {% endif %}
       </footer>
     </article>
+    </a>
   {% endfor %}
 </section>
 
