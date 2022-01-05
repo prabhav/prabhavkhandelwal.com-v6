@@ -14,8 +14,8 @@ team: Roshan Fernando & Edward Chen
 
 <figure class="full">
   <img 
-    src="{{ site.baseurl }}/assets/img/work/linkedin.png"
-    srcset="{{ site.baseurl }}/assets/img/work/linkedin@2x.png 2x"
+    src="{{ site.baseurl }}/assets/img/work/linkedin-events-feature.png"
+    srcset="{{ site.baseurl }}/assets/img/work/linkedin-events-feature@2x.png 2x"
   >
 </figure>
 

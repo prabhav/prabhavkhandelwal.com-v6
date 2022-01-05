@@ -20,8 +20,8 @@ role:
 
 <figure class="full padded">
   <img 
-    src="{{ site.baseurl }}/assets/img/work/lmr.png"
-    srcset="{{ site.baseurl }}/assets/img/work/lmr@2x.png 2x"
+    src="{{ site.baseurl }}/assets/img/work/lisa-marie-runfola.png"
+    srcset="{{ site.baseurl }}/assets/img/work/lisa-marie-runfola@2x.png 2x"
   >
 </figure>
 

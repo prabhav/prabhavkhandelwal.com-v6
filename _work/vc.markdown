@@ -24,10 +24,10 @@ role:
   <video loop autoplay playsinline
     poster="{{ site.baseurl }}/assets/img/work/vc/shot.png" >
     <source
-      src="{{ site.baseurl }}/assets/img/work/vc.webm"
+      src="{{ site.baseurl }}/assets/img/work/varun-chopra.webm"
       type="video/webm">
     <source
-      src="{{ site.baseurl }}/assets/img/work/vc.mp4"
+      src="{{ site.baseurl }}/assets/img/work/varun-chopra.mp4"
       type="video/mp4">
   </video>
 </figure>

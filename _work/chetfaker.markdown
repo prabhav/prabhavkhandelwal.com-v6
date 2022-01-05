@@ -17,8 +17,8 @@ team_url: https://www.gordilsandwillis.com/
 
 <figure class="full padded">
     <img 
-      src="{{ site.baseurl }}/assets/img/work/chetfaker.png"
-      srcset="{{ site.baseurl }}/assets/img/work/chetfaker@2x.png 2x"
+      src="{{ site.baseurl }}/assets/img/work/chet-faker.png"
+      srcset="{{ site.baseurl }}/assets/img/work/chet-faker@2x.png 2x"
     >
 </figure>
 

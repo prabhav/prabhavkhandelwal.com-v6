@@ -54,13 +54,13 @@ footer_text: THE WEB SURE IS FLUID & DYNAMIC, BUT THAT ALSO MAKES THE THINGS IT 
                 >
                     {% if post.cover_video %}
                         <video autoplay="" loop="" muted="" playsinline="" poster="/assets/img/work/{{ post.slug }}.png">
-                            <source src="{{ site.baseurl }}/assets/img/work/{{ post.slug }}.webm" type="video/webm">	
-                            <source src="{{ site.baseurl }}/assets/img/work/{{ post.slug }}.mp4" type="video/mp4">	
+                            <source src="{{ site.baseurl }}/assets/img/work/{{ post.title | slugify }}.webm" type="video/webm">	
+                            <source src="{{ site.baseurl }}/assets/img/work/{{ post.title | slugify }}.mp4" type="video/mp4">	
                         </video>
                     {% else %}
                     <img 
-                        srcset="/assets/img/work/{{ post.slug }}@2x.png 2x"    
-                        src="/assets/img/work/{{ post.slug }}.png" alt="{{ post.title }} cover image"
+                        srcset="/assets/img/work/{{ post.title | slugify }}@2x.png 2x"    
+                        src="/assets/img/work/{{ post.title | slugify }}.png" alt="{{ post.title }} cover image"
                     >
                     {% endif %}
                 </a>

@@ -18,8 +18,8 @@ role:
 
 <figure class="full padded">
   <video autoplay="" loop="" muted="" playsinline="">
-    <source src="{{ site.baseurl }}/assets/img/work/covera.webm" type="video/webm">	
-    <source src="{{ site.baseurl }}/assets/img/work/covera.mp4" type="video/mp4">	
+    <source src="{{ site.baseurl }}/assets/img/work/covera-health.webm" type="video/webm">	
+    <source src="{{ site.baseurl }}/assets/img/work/covera-health.mp4" type="video/mp4">	
   </video>
 </figure>
 
