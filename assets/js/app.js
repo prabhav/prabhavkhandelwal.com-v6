@@ -6,13 +6,19 @@ var main = function() {
 			$('nav ul').toggleClass('open');
 	});
 
-    $(".point").hover(function() {
-        $(".hover-img").show();
-        // $(".hover-img--mobile").addClass("fade-image");
-    }, function() {
-        $(".hover-img").hide();
-        // $(".hover-img--mobile").removeClass("fade-image");
-    });
+    var largeWidth = window.matchMedia("(max-width: 1024px)")
+
+    if (largeWidth.matches) { // If media query matches
+        
+    } else {
+        $(".point").hover(function() {
+            $(".hover-img").show();
+        }, function() {
+            $(".hover-img").hide();
+        });
+    }
+
+    
 
     $(".point").hover(function() {
         var imageAddress = $(this).attr("id");
@@ -219,7 +225,5 @@ function init() {
 		canvas.addEventListener('touchmove', sketchpad_touchMove, false);
 	}
 }
-
-//CURTAIN.JS
 
 $(document).ready(main);
