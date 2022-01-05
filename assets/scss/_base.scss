@@ -461,6 +461,16 @@ footer.footer {
 	}
 }
 
+.body--work {
+	footer.footer {
+		display: block;
+
+		@include large {
+			display: flex;
+		}
+	}
+}
+
 .outlink {
 	vertical-align: top;
 }
