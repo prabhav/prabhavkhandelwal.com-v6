@@ -6,7 +6,7 @@ footer_text:
 
 <section class="section about">
   <article>
-      <p>I&rsquo;m a designer and developer, born and bred in Delhi, India and currently based in Brooklyn, NY. I love making internet things and am obseesed with the web and its power for expression and community.</p>
+      <p>I&rsquo;m a designer and developer, born and bred in Delhi, India and currently based in Brooklyn, NY. I love making internet things and am obsessed with the web and its power for expression and community.</p>
 
       <p>In the past, I&rsquo;ve been fortunate enough to learn from and grow with the teams at 
         <a target="_blank" href="https://blog.prototypr.io/my-summer-as-a-ux-research-intern-for-accenture-at-google-1ac353119717">Google</a>,
