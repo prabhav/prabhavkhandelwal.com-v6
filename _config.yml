@@ -39,8 +39,8 @@ defaults:
     path: ''
   values:
     layout: default
-url: http://prabhavkhandelwal.com
-baseurl: 
+url: https://prabhavkhandelwal.com
+baseurl: https://prabhavkhandelwal.com
 permalink: pretty
 exclude:
 - ".git"
