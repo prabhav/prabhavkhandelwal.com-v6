@@ -135,9 +135,7 @@ header[role="banner"] {
 			background-image: url('../img/grid-bg.svg');
 			width: 680px;
 			// min-height: 81.55555556vh;
-		}
-		
-		@include large {
+			max-height: 960px;
 		}
 
 		&.contain-bg {
