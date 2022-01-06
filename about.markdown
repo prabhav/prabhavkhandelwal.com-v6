@@ -35,20 +35,7 @@ footer_text:
 
   </article>
 
-  <article>
-    <!-- <p>
-      You can usually find me watching a lot of football (the kind you play with your legs), making playlists nobody asked for or munching on overly spicy vegetarian food.
-    </p>
-
-    <p>Don't be shy, say hi &rarr;</p>
-
-    <ul class="links">
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">Spotify</a></li>
-      <li><a href="#">LinkedIn</a></li>
-      <li><a href="#">Email</a></li>
-    </ul> -->
+  <article class="spacer">
   </article>
 
   <figure>

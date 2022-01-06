@@ -38,6 +38,14 @@
         }
     }
 
+    .spacer {
+        display: none;
+
+        @include large {
+            display: block;
+        }
+    }
+
     figure {
         @include medium {
             grid-column: span 6;
