@@ -4,20 +4,20 @@ layout: default
 footer_text: say hi
 ---
 
-<section class="section index__hero">
+<section class="section index__hero" style="max-height: 960px;">
     <article>
         <h3>
-            I'm a Delhi-bred and Brooklyn-based designer & developer. Appreciate your eyeballs gracing my humble online home. Tinker around and have fun.
+            I'm a Delhi-bred and Brooklyn-based designer & developer. 
+            Appreciate your eyeballs gracing my humble online home. 
+            Tinker around and have fun!
         </h3>
 
-        <img class="hover-img" alt="website in question">
+        <img class="hover-img" alt="your intention in question">
     </article>
 
     <div class="wall">
         <img class="axis--v" src="{{ site.baseurl }}/assets/img/axis--gray.svg" alt="">
         <img class="axis--h" src="{{ site.baseurl }}/assets/img/axis--gray.svg" alt="">
-
-        <!-- <img class="hover-img" alt="website in question"> -->
 
         <div class="box box--shapes">
             <div id="my-interactive" class="">
@@ -60,16 +60,6 @@ footer_text: say hi
         </div>
     </div>
 </section>
-
-<!-- <section class="section sketchpad--mobile">
-    <div class="box box--sketchpad" id="sketchpadapp">
-        <canvas id="sketchpad" height="400" width="400%">
-        </canvas>
-        <p class="caption" contenteditable="true">
-            Can I have your autograph?
-        </p>
-    </div>
-</section> -->
 
 <script type="module">
     import Interactive from "https://vectorjs.org/interactive.js";
