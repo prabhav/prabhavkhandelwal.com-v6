@@ -32,9 +32,9 @@ footer_text: say hi
                 <img class="shape" src="{{ site.baseurl }}/assets/img/circle--red.svg" alt="red square">
                 <span class="caption label">(work, boldvoice)</span>
             </a>
-            <a class="point" href="/work/skilli/" id="skilli">
+            <a class="point" href="/work/chetfaker/" id="chetfaker">
                 <img class="shape" src="{{ site.baseurl }}/assets/img/square--red.svg" alt="red square">
-                <span class="caption label">(work, skilli)</span>
+                <span class="caption label">(work, chet faker)</span>
             </a>
         </div>
         <div class="box box--mood">
