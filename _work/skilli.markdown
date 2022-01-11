@@ -6,7 +6,7 @@ intro: Playing mini-games to earn real rewards.
 info: |-
   Skilli is an esports gaming app that lets users compete for cash prizes and rewards. Players can go head to head in 1v1 battles as well as compete for larger prizes in tournaments. Enthusiasts can also rack up points and compete for grand prizes on weekly leaderboards. 
 
-  I worked with the team to translate their product vision into user flows and design the mobile app for Android. 
+  I worked with the team to translate their product vision into user flows and design the mobile app for Android. The app is currently in development.
 role:
 - Product Design
 ---

@@ -4,7 +4,7 @@ date: 2021-02-16 11:59:00 +05:30
 cover_video: false
 cover_padded: true
 intro: Album release splash page for musician, Chet Faker.
-info: For Chet Faker's, "Hotel Surrender" album release, I designed and built a splash page for pre-saving the album and subscibing to the mailing list.
+info: For Chet Faker's, "Hotel Surrender" album release, I designed and built a splash page for pre-saving the album and subscribing to the mailing list.
 role: 
 - Web Design
 - Development

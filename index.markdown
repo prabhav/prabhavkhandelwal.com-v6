@@ -7,7 +7,7 @@ footer_text: say hi
 <section class="section index__hero" style="max-height: 960px;">
     <article>
         <h3>
-            I'm a Delhi-bred and Brooklyn-based designer & developer. 
+            I'm a Delhi-bred and Brooklyn-based Product Designer. 
             Appreciate your eyeballs gracing my humble online home. 
             Tinker around and have fun!
         </h3>
@@ -28,13 +28,14 @@ footer_text: say hi
                 <img class="shape" src="{{ site.baseurl }}/assets/img/triangle--red.svg" alt="red square">
                 <span class="caption label">(work, jeffstaple)</span>
             </a>
+            
+            <a class="point" href="/work/skilli/" id="skilli">
+                <img class="shape" src="{{ site.baseurl }}/assets/img/square--red.svg" alt="red square">
+                <span class="caption label">(work, skilli)</span>
+            </a>
             <a class="point" href="/work/boldvoice/" id="boldvoice">
                 <img class="shape" src="{{ site.baseurl }}/assets/img/circle--red.svg" alt="red square">
                 <span class="caption label">(work, boldvoice)</span>
-            </a>
-            <a class="point" href="/work/chetfaker/" id="chetfaker">
-                <img class="shape" src="{{ site.baseurl }}/assets/img/square--red.svg" alt="red square">
-                <span class="caption label">(work, chet faker)</span>
             </a>
         </div>
         <div class="box box--mood">
