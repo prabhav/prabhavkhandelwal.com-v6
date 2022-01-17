@@ -39,9 +39,9 @@ footer_text: say hi
             </a>
         </div>
         <div class="box box--mood">
-            <a target="_blank" class="point" id="qawwali" href="https://open.spotify.com/playlist/4BgCPoQYpNDBFPeYAn2puJ?si=4ded1e6945c24465">
+            <a target="_blank" class="point" id="haptic" href="https://open.spotify.com/playlist/72SDJhgLd15veW9QIZrSgJ?si=318ee9660a3c4399">
                 <img class="shape" src="{{ site.baseurl }}/assets/img/square--yellow.svg" alt="red square">
-                <span class="caption label">(listening, qawwali)</span>
+                <span class="caption label">(listening, haptic touch)</span>
             </a>
             <a target="_blank" class="point" id="beatles" href="https://www.imdb.com/title/tt9735318/">
                 <img class="shape" src="{{ site.baseurl }}/assets/img/triangle--yellow.svg" alt="red square">
