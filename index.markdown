@@ -7,7 +7,7 @@ footer_text: say hi
 <section class="section index__hero" style="max-height: 960px;">
     <article>
         <h3>
-            I'm a designer, developer and essentially an internet maker. 
+            I'm a designer, developer and internet maker. 
             Based in Delhi, by way of San Diego, Hong Kong and New York. 
             Currently working as a Product Designer at <a target="_blank" href="https://netlify.com">Netlify</a>, and tinkering with some new ideas.
         </h3>
