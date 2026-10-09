@@ -1,0 +1,19 @@
+<div id="my-interactive">
+    <svg class="shapes-game" viewBox="0 0 340 350" aria-labelledby="shapes-title shapes-description">
+        <title id="shapes-title">Play with shapes</title>
+        <desc id="shapes-description">Drag the red handles to move and resize the circle, rectangle and triangle. You can also focus a handle and use the arrow keys.</desc>
+        <g class="shapes-outlines">
+            <rect id="game-rectangle" x="50" y="50" width="150" height="91" />
+            <path id="game-triangle" d="M 296 50 L 296 278 L 176 278 Z" />
+            <circle id="game-circle" cx="95" cy="230" r="55" />
+        </g>
+        <g class="shapes-handles">
+            <circle data-handle="rectangle-start" cx="50" cy="50" r="6" tabindex="0" aria-label="Move rectangle" />
+            <circle data-handle="rectangle-end" cx="200" cy="141" r="6" tabindex="0" aria-label="Resize rectangle" />
+            <circle data-handle="triangle-start" cx="296" cy="50" r="6" tabindex="0" aria-label="Triangle top corner" />
+            <circle data-handle="triangle-end" cx="176" cy="278" r="6" tabindex="0" aria-label="Triangle bottom corner" />
+            <circle data-handle="circle-center" cx="95" cy="230" r="6" tabindex="0" aria-label="Move circle" />
+            <circle data-handle="circle-radius" cx="150" cy="230" r="6" tabindex="0" aria-label="Resize circle" />
+        </g>
+    </svg>
+</div>

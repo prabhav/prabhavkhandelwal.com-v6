@@ -1,0 +1,7 @@
+/* Keep the game inside its quadrant, independently of third-party styles. */
+.box--shapes { position: relative; }
+.wall #my-interactive { position: relative; width: 100%; height: 100%; }
+.shapes-game { display: block; width: 100%; height: 100%; min-height: 350px; }
+.shapes-outlines > * { fill: none; stroke: #222; stroke-width: 1; stroke-dasharray: 5; }
+.shapes-handles > circle { fill: #f22613; stroke: transparent; stroke-width: 18; cursor: move; touch-action: none; }
+.shapes-handles > circle:hover, .shapes-handles > circle:focus { outline: none; stroke: rgba(242, 38, 19, .2); }

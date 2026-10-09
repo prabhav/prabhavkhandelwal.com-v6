@@ -16,7 +16,9 @@
 <meta name="theme-color" content="#ffffff">
 
 <!-- Styles -->
-<link rel="stylesheet" href="https://vectorjs.org/library.css">
+{% if page.title == "Home" %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/shapes.css">
+{% endif %}
 
 <link href="{{ site.baseurl }}/assets/css/style.min.css" rel="stylesheet" type="text/css" media="all"/>
 
