@@ -60,3 +60,5 @@ I'm a designer, developer and internet maker. Based in Delhi, by way of San Dieg
 </section>
 
 <script defer src="{{ site.baseurl }}/assets/js/shapes.js"></script>
+
+<script type="application/json" id="hover-image-assets">{{ site.data.image_assets.hover | jsonify }}</script>

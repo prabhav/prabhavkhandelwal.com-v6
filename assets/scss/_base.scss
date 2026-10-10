@@ -471,3 +471,6 @@ footer.footer {
 .outlink {
 	vertical-align: top;
 }
+
+/* Keep reserved image dimensions responsive. */
+img[data-optimized-image]{height:auto}

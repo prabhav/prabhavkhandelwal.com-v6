@@ -1,0 +1,49 @@
+{
+  "pages": 23,
+  "pictures": 88,
+  "lazyImages": 59,
+  "eagerImages": 29,
+  "posters": 7,
+  "checkedVariants": 405,
+  "animations": 6,
+  "byType": {
+    "png": {
+      "assets": 101,
+      "originalBytes": 122224394,
+      "largestDeliveredBytes": 72434788,
+      "savedBytes": 49789606,
+      "savingsPercent": 40.74
+    },
+    "jpeg": {
+      "assets": 2,
+      "originalBytes": 437792,
+      "largestDeliveredBytes": 358968,
+      "savedBytes": 78824,
+      "savingsPercent": 18
+    },
+    "gif": {
+      "assets": 6,
+      "originalBytes": 16256092,
+      "largestDeliveredBytes": 8047596,
+      "savedBytes": 8208496,
+      "savingsPercent": 50.49
+    }
+  },
+  "referencedRaster": {
+    "originalBytes": 138918278,
+    "largestDeliveredBytes": 80841352,
+    "savedBytes": 58076926,
+    "savingsPercent": 41.81
+  },
+  "rasterLibrary": {
+    "files": 195,
+    "bytes": 331781486
+  },
+  "derivativeStorageBytes": 184850458,
+  "notes": [
+    "Largest available derivative per referenced original; responsive browsers often select smaller candidates. This is an asset payload budget, not a measured page load benchmark.",
+    "Original PNG/JPEG/GIF files remain available as picture fallbacks and source masters.",
+    "SVG, social preview and favicon files are retained unchanged.",
+    "Videos are outside the image-compression scope; only their image posters are optimized."
+  ]
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "name": "desktop-1440-dpr2",
+    "width": 1440,
+    "dpr": 2,
+    "originalBytes": 101645284,
+    "deliveredBytes": 44278440,
+    "savingsPercent": 56.44,
+    "pages": [
+      {
+        "page": "404/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "about/index.html",
+        "originalBytes": 57943,
+        "deliveredBytes": 53260
+      },
+      {
+        "page": "blog/attck/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "blog/garrett/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "blog/index.html",
+        "originalBytes": 1064483,
+        "deliveredBytes": 701613
+      },
+      {
+        "page": "blog/sdco/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "blog/verena/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "doodles/index.html",
+        "originalBytes": 1461233,
+        "deliveredBytes": 923422
+      },
+      {
+        "page": "index.html",
+        "originalBytes": 16260275,
+        "deliveredBytes": 8051779
+      },
+      {
+        "page": "news/hello-world/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "news/setting-priorities/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "work/boldvoice/index.html",
+        "originalBytes": 10733729,
+        "deliveredBytes": 4620449
+      },
+      {
+        "page": "work/chetfaker/index.html",
+        "originalBytes": 8002143,
+        "deliveredBytes": 3155423
+      },
+      {
+        "page": "work/covera/index.html",
+        "originalBytes": 13872773,
+        "deliveredBytes": 2459335
+      },
+      {
+        "page": "work/google/index.html",
+        "originalBytes": 2589521,
+        "deliveredBytes": 690738
+      },
+      {
+        "page": "work/index.html",
+        "originalBytes": 24187725,
+        "deliveredBytes": 5430578
+      },
+      {
+        "page": "work/jeffstaple/index.html",
+        "originalBytes": 2513857,
+        "deliveredBytes": 973261
+      },
+      {
+        "page": "work/labamba/index.html",
+        "originalBytes": 3758043,
+        "deliveredBytes": 1075687
+      },
+      {
+        "page": "work/linkedin/index.html",
+        "originalBytes": 3477068,
+        "deliveredBytes": 1502594
+      },
+      {
+        "page": "work/lmr/index.html",
+        "originalBytes": 8539364,
+        "deliveredBytes": 2931887
+      },
+      {
+        "page": "work/skilli/index.html",
+        "originalBytes": 16620679,
+        "deliveredBytes": 7631884
+      },
+      {
+        "page": "work/vc/index.html",
+        "originalBytes": 9675014,
+        "deliveredBytes": 3978792
+      },
+      {
+        "page": "work/zine/index.html",
+        "originalBytes": 6375881,
+        "deliveredBytes": 2563880
+      }
+    ],
+    "notes": "Calculated unique image URLs across the full site after scrolling; assumes WebP support and browser selection from authored sizes, with all hover states visited on desktop and hidden hover media excluded on mobile. Does not include video payloads."
+  },
+  {
+    "name": "mobile-390-dpr2",
+    "width": 390,
+    "dpr": 2,
+    "originalBytes": 85389192,
+    "deliveredBytes": 11547326,
+    "savingsPercent": 86.48,
+    "pages": [
+      {
+        "page": "404/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "about/index.html",
+        "originalBytes": 57943,
+        "deliveredBytes": 53260
+      },
+      {
+        "page": "blog/attck/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "blog/garrett/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "blog/index.html",
+        "originalBytes": 1064483,
+        "deliveredBytes": 701613
+      },
+      {
+        "page": "blog/sdco/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "blog/verena/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "doodles/index.html",
+        "originalBytes": 1461233,
+        "deliveredBytes": 814838
+      },
+      {
+        "page": "index.html",
+        "originalBytes": 4183,
+        "deliveredBytes": 4183
+      },
+      {
+        "page": "news/hello-world/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "news/setting-priorities/index.html",
+        "originalBytes": 0,
+        "deliveredBytes": 0
+      },
+      {
+        "page": "work/boldvoice/index.html",
+        "originalBytes": 10733729,
+        "deliveredBytes": 1401481
+      },
+      {
+        "page": "work/chetfaker/index.html",
+        "originalBytes": 8002143,
+        "deliveredBytes": 990045
+      },
+      {
+        "page": "work/covera/index.html",
+        "originalBytes": 13872773,
+        "deliveredBytes": 1305789
+      },
+      {
+        "page": "work/google/index.html",
+        "originalBytes": 2589521,
+        "deliveredBytes": 270948
+      },
+      {
+        "page": "work/index.html",
+        "originalBytes": 24187725,
+        "deliveredBytes": 3152010
+      },
+      {
+        "page": "work/jeffstaple/index.html",
+        "originalBytes": 2513857,
+        "deliveredBytes": 395603
+      },
+      {
+        "page": "work/labamba/index.html",
+        "originalBytes": 3758043,
+        "deliveredBytes": 380511
+      },
+      {
+        "page": "work/linkedin/index.html",
+        "originalBytes": 3477068,
+        "deliveredBytes": 439290
+      },
+      {
+        "page": "work/lmr/index.html",
+        "originalBytes": 8539364,
+        "deliveredBytes": 890913
+      },
+      {
+        "page": "work/skilli/index.html",
+        "originalBytes": 16620679,
+        "deliveredBytes": 1901932
+      },
+      {
+        "page": "work/vc/index.html",
+        "originalBytes": 9675014,
+        "deliveredBytes": 1854840
+      },
+      {
+        "page": "work/zine/index.html",
+        "originalBytes": 6375881,
+        "deliveredBytes": 1062122
+      }
+    ],
+    "notes": "Calculated unique image URLs across the full site after scrolling; assumes WebP support and browser selection from authored sizes, with all hover states visited on desktop and hidden hover media excluded on mobile. Does not include video payloads."
+  }
+]

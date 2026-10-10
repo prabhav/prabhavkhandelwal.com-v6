@@ -4,6 +4,7 @@ date: 2019-11-28 11:59:00 +05:30
 archive: false
 cover_padded: true
 cover_video: true
+cover_image: covera.png
 intro: Helping build a marketing site for a healthtech startup pioneering clinical analytics.
 info: |-
   Covera Health is pioneering advanced clinical analytics to reduce misdiagnoses and connect patients with the right care from the start.

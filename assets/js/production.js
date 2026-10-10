@@ -14,36 +14,31 @@ var main = function() {
 			$('nav ul').toggleClass('open');
 	});
 
-    var largeWidth = window.matchMedia("(max-width: 1024px)")
+    var hoverConfig = document.getElementById('hover-image-assets');
+    var hoverImages = hoverConfig ? JSON.parse(hoverConfig.textContent) : {};
+    var canHover = window.matchMedia('(min-width: 1025px) and (hover: hover)');
 
-    if (largeWidth.matches) { // If media query matches
-        
-    } else {
+    if (canHover.matches) {
         $(".point").hover(function() {
-            $(".hover-img").show();
+            var imageAddress = $(this).attr("id");
+            var projectName = $(this).find(".label").text();
+            var image = hoverImages[imageAddress];
+            var original = "/assets/img/wall/" + imageAddress + ".gif";
+            var preview = $(".hover-img");
+            preview.off('error.imageFallback').one('error.imageFallback', function() {
+                $(this).removeAttr('srcset sizes').attr('src', original);
+            });
+            preview.attr({alt: projectName, title: projectName});
+            if (image) {
+                preview.attr({sizes: image.sizes, srcset: image.srcset, src: image.src});
+            } else {
+                preview.removeAttr('srcset sizes').attr('src', original);
+            }
+            preview.show();
         }, function() {
             $(".hover-img").hide();
         });
     }
-
-    
-
-    $(".point").hover(function() {
-        var imageAddress = $(this).attr("id");
-        var projectName = $(this).find(".label").text();
-
-        console.log("some hover point");
-
-        $(".hover-img").attr({
-            alt: projectName,
-            title: projectName,
-            src: "/assets/img/wall/" + imageAddress + ".gif"
-            // src: "/assets/img/projects/" + imageAddress + ".png"
-        });        
-    });
-
-
-
 
     // $('.point#jeff').hover(
 				

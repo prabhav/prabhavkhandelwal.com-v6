@@ -9,7 +9,7 @@ footer_text: Back to projects
 
       <figure class="full cover--mobile {% if page.cover_padded %}padded{% endif %}">
         {% if page.cover_video %}
-          <video autoplay="" loop="" muted="" playsinline="" poster="/assets/img/work/{{ post.slug }}.png">
+          <video autoplay="" loop="" muted="" playsinline="" poster="/assets/img/work/{% if page.cover_image %}{{ page.cover_image }}{% else %}{{ page.title | slugify }}.png{% endif %}">
               <source src="{{ site.baseurl }}/assets/img/work/{{ page.title | slugify }}.webm" type="video/webm">	
               <source src="{{ site.baseurl }}/assets/img/work/{{ page.title | slugify }}.mp4" type="video/mp4">	
           </video>
