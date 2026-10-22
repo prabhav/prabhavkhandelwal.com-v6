@@ -4,7 +4,7 @@ layout: default
 footer_text: say hi
 ---
 
-<section class="section index__hero" style="max-height: 960px;">
+<section class="section index__hero">
     <article>
         <h3>
 I'm a designer, developer and internet maker. Based in Delhi, by way of San Diego, Hong Kong and New York. Previously worked at Google, Alright Studio & Netlify. Currently building <a target="_blank" href="https://studiocanine.com">Studio Canine</a>.

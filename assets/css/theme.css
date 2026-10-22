@@ -1,0 +1,105 @@
+:root {
+    --page-background: #fff;
+    --page-text: #383838;
+    --page-accent: #f22613;
+    --page-rule: rgba(0, 0, 0, .25);
+}
+html { background: #fff; }
+.outlink { display: inline-block; vertical-align: baseline; font-family: inherit; color: var(--page-accent); }
+body { background: var(--page-background); color: var(--page-text); min-height: 100vh; }
+.body--home { display: flex; flex-direction: column; }
+.body--home .index__hero { flex: 1; }
+footer.footer { position: relative; align-items: center; gap: 20px; padding-right: 44px; }
+footer.footer--home { display: grid; grid-template-columns: 1fr 1fr; padding-top: 17px; padding-bottom: 20px; min-height: 62px; }
+.footer--home .footer__thanks { grid-column: 2; padding-right: 24px; line-height: 1.7; }
+.theme-toggle { position: absolute; right: -16px; top: 9px; width: 44px; height: 44px; border: 0; padding: 0; cursor: pointer; color: #000; }
+.theme-toggle__face { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 14px; height: 24px; }
+.theme-toggle__face img { position: absolute; width: 12px; height: 12px; max-width: none; }
+.theme-toggle__face span { position: relative; font: 14px/1.7 Helvetica, Arial, sans-serif; }
+.theme-toggle:focus-visible { outline: 2px solid var(--page-accent); outline-offset: -4px; border-radius: 50%; }
+@media (min-width: 1024px) {
+    .body--home .index__hero { height: auto; min-height: 700px; max-height: 960px; }
+}
+@media (max-width: 599px) {
+    footer.footer--home { grid-template-columns: 1fr; }
+    .footer--home .footer__thanks { grid-column: 1; }
+}
+
+/* Colors sampled from Figma frame 646:89. The translucent background sits on white. */
+html[data-theme="dark"] {
+    color-scheme: dark;
+    --page-background: rgba(10, 10, 10, .99);
+    --page-text: #fafafa;
+    --page-accent: #fafa00;
+    --page-rule: rgba(250, 250, 250, .25);
+}
+[data-theme="dark"] a,
+[data-theme="dark"] header[role="banner"] nav,
+[data-theme="dark"] section.projects .project .info .name,
+[data-theme="dark"] .project__main h3 + .caption,
+[data-theme="dark"] .project__main li::marker,
+[data-theme="dark"] .blog-grid article time,
+[data-theme="dark"] .blog-grid article h3 { color: var(--page-accent); }
+[data-theme="dark"] header[role="banner"] p a,
+[data-theme="dark"] .wall a,
+[data-theme="dark"] small,
+[data-theme="dark"] .work__grid a,
+[data-theme="dark"] .work__grid .project__meta__intro,
+[data-theme="dark"] .work__archive a,
+[data-theme="dark"] .project__aside footer dl dd a,
+[data-theme="dark"] .blog-grid > a,
+[data-theme="dark"] .project .info .link a { color: var(--page-text); }
+[data-theme="dark"] header[role="banner"],
+[data-theme="dark"] footer.footer,
+[data-theme="dark"] section.projects .project { border-color: var(--page-rule); }
+[data-theme="dark"] .footer--home { border-top: 0; background: url('../img/theme/footer-rule.svg') left top / 100% 1px no-repeat; }
+[data-theme="dark"] .shapes-outlines > * { stroke: #fafafa; }
+[data-theme="dark"] .shapes-handles > circle { fill: var(--page-accent); }
+[data-theme="dark"] .shapes-handles > circle:hover,
+[data-theme="dark"] .shapes-handles > circle:focus { stroke: rgba(250, 250, 0, .2); }
+[data-theme="dark"] .wall .point .shape {
+    object-position: -9999px 0;
+    background: var(--page-accent);
+    mask: var(--shape-mask) center / contain no-repeat;
+    -webkit-mask: var(--shape-mask) center / contain no-repeat;
+}
+.wall .shape[src*="triangle--"] { --shape-mask: url('../img/triangle--red.svg'); }
+.wall .shape[src*="square--"] { --shape-mask: url('../img/square--red.svg'); }
+.wall .shape[src*="circle--"] { --shape-mask: url('../img/circle--red.svg'); }
+[data-theme="dark"] .index__hero .wall { background-image: none; }
+[data-theme="dark"] #sketchpad { filter: grayscale(1) brightness(0) invert(1); }
+[data-theme="dark"] .blog-grid article { border-color: var(--page-accent); }
+[data-theme="dark"] .project__main figure.padded,
+[data-theme="dark"] .project__aside figure.padded,
+[data-theme="dark"] .project figure.padded,
+[data-theme="dark"] .work__grid figure,
+[data-theme="dark"] .work__grid mark,
+[data-theme="dark"] .work__grid .role { background: #222; color: var(--page-text); }
+[data-theme="dark"] .role,
+[data-theme="dark"] section.projects .project .role,
+[data-theme="dark"] section.projects .project .info .name .role--mobile,
+[data-theme="dark"] figcaption,
+[data-theme="dark"] .project__main figure figcaption,
+[data-theme="dark"] footer.footer .page-footer { color: #fafafa; }
+
+/* Interactive states use the same accent as the dark-mode links. */
+[data-theme="dark"] .index__hero .wall .box .point:is(:hover, :focus) .label {
+    background: var(--page-accent) !important;
+    color: #0a0a0a !important;
+}
+[data-theme="dark"] .blog-grid article:is(:hover, :focus, :focus-within) { border-color: var(--page-accent); }
+[data-theme="dark"] .blog-grid > a:focus-visible article { border: 1px solid var(--page-accent); }
+[data-theme="dark"] .blog-grid article:active,
+[data-theme="dark"] .blog-grid article:active a,
+[data-theme="dark"] .blog-grid article:active h3,
+[data-theme="dark"] .blog-grid article:active time,
+[data-theme="dark"] .blog-grid article:active .outlink {
+    background: var(--page-accent);
+    color: #0a0a0a !important;
+}
+[data-theme="dark"] .work__archive main .project .line { background: var(--page-accent); }
+[data-theme="dark"] ::selection { background: var(--page-accent); color: #0a0a0a; text-shadow: none; }
+[data-theme="dark"] .box--sketchpad ::selection { background: var(--page-accent); color: #0a0a0a; }
+[data-theme="dark"] .control > *:first-child { fill: var(--page-accent); }
+[data-theme="dark"] .control > *:nth-child(2) { stroke: var(--page-accent); }
+[data-theme="dark"] .control:is(:hover, :focus) { fill: rgba(250, 250, 0, .5); }

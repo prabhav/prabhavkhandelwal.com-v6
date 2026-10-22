@@ -1,5 +1,6 @@
-<footer class="footer section">
-    <div class="caption" class="page-footer">
+<footer class="footer section{% if page.title == 'Home' %} footer--home{% endif %}">
+    {% unless page.title == 'Home' %}
+    <div class="caption page-footer">
 
         {% if page.layout == 'layout--work' %}
 
@@ -42,4 +43,13 @@
         {% endif %}
 
     </small>
+    {% else %}
+    <p class="caption footer__thanks">Thanks for stopping by</p>
+    {% endunless %}
+    <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+        <span class="theme-toggle__face" aria-hidden="true">
+            <img src="{{ site.baseurl }}/assets/img/theme/smiley-background.svg" width="12" height="12" alt="">
+            <span>☺︎</span>
+        </span>
+    </button>
 </footer>

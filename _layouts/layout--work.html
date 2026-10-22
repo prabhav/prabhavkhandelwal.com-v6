@@ -35,7 +35,7 @@ footer_text: Back to projects
       {% if page.domain %}
       <p class="caption domain">
         <a href="https://{{ page.domain }}">{{ page.domain }}</a>
-        <img class="outlink" src="{{ site.baseurl }}/assets/img/outlink.svg" alt="">
+        <span class="outlink" aria-hidden="true">↗</span>
       </p>
       {% endif %}
       {% endcomment %}
@@ -44,7 +44,7 @@ footer_text: Back to projects
         {% for item in page.link %}
         <p class="caption links">
           <a target="_blank" href="{{ item.url }}">{{ item.copy }}</a>
-          <img class="outlink" src="{{ site.baseurl }}/assets/img/outlink.svg" alt="">
+          <span class="outlink" aria-hidden="true">↗</span>
         </p>
         {% endfor %}
       {% endif %}
@@ -80,7 +80,7 @@ footer_text: Back to projects
         <dd>
           {% if page.team_url %}
             <a href="{{ page.team_url }}">{{ page.team }}</a>
-            <img class="outlink" src="{{ site.baseurl }}/assets/img/outlink.svg" alt="">
+            <span class="outlink" aria-hidden="true">↗</span>
             {% else %}
             {{ page.team }}
           {% endif %}

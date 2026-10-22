@@ -16,11 +16,12 @@
 <meta name="theme-color" content="#ffffff">
 
 <!-- Styles -->
-{% if page.title == "Home" %}
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/shapes.css">
-{% endif %}
-
 <link href="{{ site.baseurl }}/assets/css/style.min.css" rel="stylesheet" type="text/css" media="all"/>
+{% if page.title == "Home" %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/shapes.css?v=4">
+{% endif %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.css?v=6">
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
 
 <!-- Social Tags -->
 <meta name="description" content="Prabhav Khandelwal is a designer and developer currently based in NYC. Don't be shy, say hi!" />

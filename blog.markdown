@@ -22,7 +22,7 @@ layout: layout--index
       
       <footer>
         {% if post.outlink %}
-          <span class="caption">Read on Mindsparkle <img class="outlink" src="{{ site.baseurl }}/assets/img/outlink.svg" alt=""></span>
+          <span class="caption">Read on Mindsparkle <span class="outlink" aria-hidden="true">↗</span></span>
         {% else %}
           <span class="caption">Read More</span>
         {% endif %}

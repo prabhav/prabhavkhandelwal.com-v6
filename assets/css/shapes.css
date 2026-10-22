@@ -5,3 +5,11 @@
 .shapes-outlines > * { fill: none; stroke: #222; stroke-width: 1; stroke-dasharray: 5; }
 .shapes-handles > circle { fill: #f22613; stroke: transparent; stroke-width: 18; cursor: move; touch-action: none; }
 .shapes-handles > circle:hover, .shapes-handles > circle:focus { outline: none; stroke: rgba(242, 38, 19, .2); }
+
+@media (max-width: 599px) {
+    .index__hero .wall { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+    .index__hero .wall .box--shapes { grid-column: 1 / -1; min-height: 0; }
+    .index__hero .wall #my-interactive { position: relative; height: auto; }
+    .shapes-game { height: auto; min-height: 0; aspect-ratio: 340 / 350; }
+    .index__hero .wall .box--sketchpad { display: none !important; }
+}
